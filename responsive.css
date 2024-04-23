@@ -1,0 +1,295 @@
+@media screen and (max-width: 1170px) {
+  .services .boxes {
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .services .boxes .box {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projects .links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 830px) {
+  header nav .menu {
+    display: block;
+  }
+  header nav ul {
+    display: none;
+  }
+  header nav .logo {
+    font-size: 28px;
+  }
+  header .side_menu {
+    display: block;
+  }
+  .container .home .info h2 {
+    font-size: 30px;
+  }
+  .container .home .info h1 {
+    font-size: 45px;
+  }
+  .container .home {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0px;
+  }
+  .container .home .info_img {
+    width: 100%;
+  }
+  .about {
+    gap: 40px;
+    margin: 100px 0;
+    flex-direction: column;
+  }
+  .about .about_img {
+    width: 60%;
+  }
+  .about .about_me {
+    width: 100%;
+  }
+  .services .boxes {
+    gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services .boxes .box {
+    width: 100%;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact .left_box {
+    width: 100%;
+  }
+  .contact form {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .projects h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .projects .links {
+    grid-template-columns: 1fr;
+  }
+  .projects .links .link a {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header nav {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .container {
+    width: 90%;
+  }
+  header nav .logo {
+    font-size: 25px;
+  }
+  .container .home {
+    gap: 50px;
+  }
+  .container .home .info h2 {
+    font-size: 25px;
+  }
+  .container .home .info h1 {
+    font-size: 35px;
+  }
+  .container .home .info {
+    line-height: 60px;
+  }
+  .container .home .info_img {
+    width: 100%;
+  }
+  .about {
+    margin: 80px 0;
+  }
+  .about .about_img {
+    width: 55%;
+  }
+  .about .about_me h1,
+  .services h1,
+  .contact .left_box h1,
+  .projects h1 {
+    font-size: 40px;
+  }
+  .about .about_me p {
+    font-size: 15px;
+  }
+  .about .about_me .links {
+    gap: 50px;
+    font-size: 15px;
+  }
+  .services {
+    margin: 80px 0;
+  }
+  .services .boxes {
+    margin: 40px 0;
+  }
+  .services .boxes .box i {
+    font-size: 28px;
+  }
+  .services .boxes .box h2 {
+    font-size: 20px;
+  }
+  .services .boxes .box p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header nav .logo {
+    font-size: 22px;
+  }
+  .container .home {
+    justify-content: start;
+    gap: 20px;
+  }
+  .container .home .info h2 {
+    font-size: 22px;
+  }
+  .container .home .info h1 {
+    font-size: 32px;
+  }
+  .about {
+    margin: 50px 0;
+    gap: 30px;
+  }
+  .about .about_img {
+    width: 70%;
+  }
+  .about .about_me h1,
+  .services h1,
+  .contact .left_box h1,
+  .projects h1 {
+    font-size: 35px;
+  }
+  .about .about_me p {
+    font-size: 13px;
+  }
+  .about .about_me li {
+    font-size: 12px;
+  }
+  .about .about_me .links {
+    gap: 30px;
+    font-size: 12px;
+  }
+  .services {
+    margin: 65px 0;
+  }
+  .services .boxes {
+    margin: 35px 0;
+  }
+  .services .boxes .box i {
+    font-size: 26px;
+  }
+  .services .boxes .box h2 {
+    font-size: 18px;
+  }
+  .services .boxes .box p {
+    font-size: 13px;
+  }
+  .contact {
+    margin: 40px 0;
+  }
+  .contact .left_box .btn a,
+  .contact form button {
+    font-size: 18px;
+  }
+  .contact .left_box p {
+    font-size: 15px;
+  }
+  .contact .left_box .social a {
+    font-size: 22px;
+  }
+  .contact form input,
+  .contact form textarea {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about .about_img {
+    width: 70%;
+  }
+  .projects .links .link a h2 {
+    font-size: 20px;
+  }
+  .projects .links .link i {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .container .home .info h2 {
+    font-size: 20px;
+  }
+  .container .home .info h1 {
+    font-size: 25px;
+  }
+  .about .about_me h1,
+  .services h1,
+  .contact .left_box h1,
+  .projects h1 {
+    font-size: 30px;
+  }
+  .about .about_me p {
+    font-size: 12px;
+  }
+  .about .about_me li {
+    font-size: 10px;
+  }
+  .about .about_img {
+    width: 70%;
+  }
+  .about .about_me .links {
+    gap: 20px;
+    font-size: 10px;
+  }
+  .services {
+    margin: 60px 0;
+  }
+  .services .boxes {
+    margin: 30px 0;
+  }
+  .services .boxes .box i {
+    font-size: 24px;
+  }
+  .services .boxes .box h2 {
+    font-size: 15px;
+  }
+  .services .boxes .box p {
+    font-size: 12px;
+  }
+  .contact {
+    margin: 30px 0;
+  }
+  .contact .left_box .btn a,
+  .contact form button {
+    font-size: 15px;
+  }
+  .contact .left_box p {
+    font-size: 12px;
+  }
+  .contact .left_box .social a {
+    font-size: 20px;
+  }
+  .contact form input,
+  .contact form textarea {
+    font-size: 12px;
+  }
+  .projects .links .link a h2 {
+    font-size: 15px;
+  }
+  .projects .links .link i {
+    font-size: 20px;
+  }
+}
